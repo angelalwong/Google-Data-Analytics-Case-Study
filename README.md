@@ -14,3 +14,15 @@ The data source used is located in following link: https://divvy-tripdata.s3.ama
 The data has been made available by Motivate International Inc. This is public data used to explore how different customer types are using Cyclistic bikes. The specific data used for this case study is data from January 2023 - December 2023, and the data was split into 12 files, one for each of the months in the year 2023.
 
 #### Data Storage
+Due to the large size of the 12 files, I created 12 tables to store data from each of the months and I imported each of the files into the 12 tables in pgAdmin 4. 
+
+[Create Tables](https://github.com/angelalwong/Google-Data-Analytics-Case-Study/blob/main/create-tables.sql)
+
+[Import CSVs to Tables](https://github.com/angelalwong/Google-Data-Analytics-Case-Study/blob/main/import-csv-to-table.sql)
+
+From there, I combined all 12 tables into a single table for data processing. 
+
+[Combine Tables](https://github.com/angelalwong/Google-Data-Analytics-Case-Study/blob/main/combine-tables.sql)
+
+I added up the row count from each of the 12 tables to ensure that the sum matched the total row count for the combined table. The total rows for both queries resulted in 5719877, which confirmed that the tables were combined correctly into a consolidated table ‘full_year_rides’ with data from the full year.
+
