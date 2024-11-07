@@ -92,3 +92,13 @@ Lastly, I visualized the distribution of total rides by bike type (classic, dock
 ![bike type dashboard](https://github.com/user-attachments/assets/bcd9be30-2819-4530-945b-754994f7c572)
 
 ### Act
+I’ve uploaded all my work from the case study here in GitHub and included the link to my data visualizations in [Tableau Public](https://public.tableau.com/views/GoogleDataAnalyticsBike-ShareCaseStudy/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). 
+
+Based on my analysis, below are my top three recommendations:
+
+1. Encourage casual riders to consider membership through targeted promotions on docked and electric bike usage. Casual riders primarily use electric and docked bikes. Cyclistic could offer exclusive membership benefits for electric and docked bikes, such as discounts on e-bike rides or perks for docked bike availability. This aligns with casual riders’ preferences and incentivizes them to explore the cost savings and added benefits of a membership.
+
+2. Promote weekend membership plans or ride bundles for casual riders. Casual riders have higher ride counts on weekends, particularly on Sundays, and their average ride length is consistently longer than members across all timeframes. Cyclistic can market special membership tiers or bundles for weekend usage, appealing to casual riders who primarily use bikes for recreational purposes. This could include discounted weekend rides or flexible membership options tailored to their usage patterns.
+
+3. Offer loyalty rewards for casual riders to incentivize membership conversion. Casual riders tend to ride longer on average than members, indicating they may be using Cyclistic bikes for leisurely or exploratory purposes. Additionally, their usage spikes during specific times (weekends and non-commuting hours). Cyclistic could implement a loyalty rewards program for casual riders, where frequent usage accumulates points that can be redeemed for membership discounts or perks (e.g., free ride credits, access to exclusive membership events). Once casual riders see the value of these rewards, they may be more inclined to commit to an annual membership for ongoing benefits.
+
