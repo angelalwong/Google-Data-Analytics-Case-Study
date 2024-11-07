@@ -61,3 +61,25 @@ Next, I created the column ride_length to calculate the length of each ride by s
 
 [SQL Query: Data Processing](https://github.com/angelalwong/Google-Data-Analytics-Case-Study/blob/main/data-processing.sql)
 
+### Analyze
+First, I ran a few calculations to get a better sense of the data layout. I calculated the mean of ride_length, max ride_length, and mode of day_of_week. 
+
+![average ride length](https://github.com/user-attachments/assets/8ceae17d-c7f3-44e6-abef-12ddc18ee4bb)
+
+![maximum ride length](https://github.com/user-attachments/assets/7d1efc97-3f5e-45ac-9b13-fdd30717619e)
+
+![mode of weekday](https://github.com/user-attachments/assets/4cdb2ce4-3022-4348-9fcf-7d32e94b81b7)
+
+Next, I performed data analysis and investigated trends to explore how annual members and casual riders use Cyclistic bikes differently, looking at metrics like total rides and average ride lengths at different hours of the day, days of the week, months of the year, and also by bike type.
+
+[SQL Query: Data Analysis](https://github.com/angelalwong/Google-Data-Analytics-Case-Study/blob/main/data-analysis.sql)
+
+### Share
+I exported the query results from my data analysis as tables that were then used as data sources for data visualizations in Tableau.
+
+[Tableau Public Project](https://public.tableau.com/views/GoogleDataAnalyticsBike-ShareCaseStudy/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+I calculated the total number of rides for users by month, day of week, and hour. Overall, member riders show consistent, high activity throughout the year and weekdays, aligning with daily commuting patterns, while casual riders have more variable patterns, with higher weekend and midday activity.
+![total rides dashboard](https://github.com/user-attachments/assets/ed57075e-5ee6-4e56-b012-705f18c56023)
+
+### Act
