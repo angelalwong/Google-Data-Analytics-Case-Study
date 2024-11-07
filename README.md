@@ -47,3 +47,17 @@ The 'ride_id' column values were validated and contained the same length and did
 
 ![ride_id length check](https://github.com/user-attachments/assets/709040f6-5b92-407f-84e2-3d0b8f8514b1)
 
+### Process
+#### Data Cleaning
+I checked each column for null values. 6 out of 13 columns contained null values: start_station_name, start_station_id, end_station_name, end_station_id, end_lat, end_lng. 
+
+[SQL Query: Find Null Values](https://github.com/angelalwong/Google-Data-Analytics-Case-Study/blob/main/find-null-values.sql)
+
+Since rides with null values will provide information in some areas but not others, I created a duplicate of the full_year_rides table and removed all rows that contained null values to ensure data consistency and completeness. I named this new cleaned table as full_year_rides_cleaned and added a primary key constraint for the ride_id column.
+
+[SQL Query: Create Cleaned Table](https://github.com/angelalwong/Google-Data-Analytics-Case-Study/blob/main/create-cleaned-table.sql)
+
+Next, I created the column ride_length to calculate the length of each ride by subtracting the started_at column from the ended_at column. In addition, I created the column ride_length_minutes to convert the ride_length interval data type to a numeric value with two decimal places - this will allow the values to be recognized when imported into Tableau. Then I created the column day_of_week to calculate the day of the week that each ride started on. These new columns will be helpful in the Data Analysis step.
+
+[SQL Query: Data Processing](https://github.com/angelalwong/Google-Data-Analytics-Case-Study/blob/main/data-processing.sql)
+
