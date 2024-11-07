@@ -80,6 +80,15 @@ I exported the query results from my data analysis as tables that were then used
 [Tableau Public Project](https://public.tableau.com/views/GoogleDataAnalyticsBike-ShareCaseStudy/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 I calculated the total number of rides for users by month, day of week, and hour. Overall, member riders show consistent, high activity throughout the year and weekdays, aligning with daily commuting patterns, while casual riders have more variable patterns, with higher weekend and midday activity.
+
 ![total rides dashboard](https://github.com/user-attachments/assets/ed57075e-5ee6-4e56-b012-705f18c56023)
+
+Next, I calculated the average ride length for users by month, day of week, and hour. Casual riders have significantly longer rides across all dimensions, with noticeable variability influenced by leisure and non-commuting behaviors. Member riders show shorter, uniform ride lengths, likely aligned with commuting or routine travel.
+
+![average ride length dashboard](https://github.com/user-attachments/assets/afb9167d-70c1-4023-8ebc-00d1d72e3603)
+
+Lastly, I visualized the distribution of total rides by bike type (classic, docked, and electric) for casual and member riders. Casual riders dominate in all bike categories, particularly with docked and electric bikes. Member riders show a preference for classic and electric bikes but contribute significantly less to the overall ride count.
+
+![bike type dashboard](https://github.com/user-attachments/assets/bcd9be30-2819-4530-945b-754994f7c572)
 
 ### Act
