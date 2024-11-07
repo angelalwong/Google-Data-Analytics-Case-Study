@@ -26,3 +26,9 @@ From there, I combined all 12 tables into a single table for data processing.
 
 I added up the row count from each of the 12 tables to ensure that the sum matched the total row count for the combined table. The total rows for both queries resulted in 5719877, which confirmed that the tables were combined correctly into a consolidated table ‘full_year_rides’ with data from the full year.
 
+![full_year_rides row count](https://github.com/user-attachments/assets/e3c5122a-d8f5-427c-974a-a40cf0b50836)
+
+![total row count from 12 tables](https://github.com/user-attachments/assets/5858d5b1-e787-4838-a805-4018a9286522)
+
+
+
